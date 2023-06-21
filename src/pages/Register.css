@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+}
+
+.img1{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    padding: 20px;
+    /* object-fit: cover; */
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30% ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ 
+.second{
+    height:85%;
+    display: flex;
+} 
+
+.text{
+    width: 65%;
+    color: white;
+    padding: 15% 2% 0% 2%;
+    font-size: 30px;
+}
+
+.hi{
+    font-size: 130px;
+}
+
+.name{
+    color: rgb(255, 56, 56);
+}
+
+.dev{
+    font-size: 90px;   
+}
+
+.i{
+    padding-top: 10px;
+}
+
+.pic{
+    width: 35%;
+} 
+
+.img2{
+    width:100%;
+    height: 90%;
+    margin: 90px 0 0 0;
+    /* object-fit: cover; */
+}
